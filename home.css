@@ -5,3 +5,13 @@ h1 {
 header {
     border: 2px black solid;
 }
+
+nav {
+    width: 0 auto;
+    text-align: center;
+}
+
+ul, li {
+    list-style: none;
+    display: inline-block;
+}
