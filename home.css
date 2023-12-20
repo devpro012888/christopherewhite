@@ -15,3 +15,8 @@ ul, li {
     list-style: none;
     display: inline-block;
 }
+
+.main-content {
+    width: 600px;
+    text-align: justify;
+}
