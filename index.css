@@ -1,16 +1,24 @@
 body{
     width: 1000px;
     margin: auto;
+    background-color: darkgrey;
 }
-
 h1{
     text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 45px;
+    color: white;
+    background-color:darkslategray;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
 }
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 45px;
+    float: left;
+    margin-right: 20px;
+    pointer-events: none;
 }
 p{
     text-align: justify;
@@ -33,4 +41,10 @@ p{
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+}
+.welcome{
+    width: 800px;
+}
+.welcome a{
+    text-decoration: none;
 }
