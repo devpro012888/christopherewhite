@@ -14,12 +14,13 @@ h1{
     border-color: black;
     border-width: 10px;
 }
-img{
+.selfie{
     float: left;
     margin-right: 20px;
     pointer-events: none;
     margin-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex: 1;
 }
 p{
     text-align: justify;
@@ -45,14 +46,21 @@ p{
 }
 .welcome{
     width: 800px;
+    flex: 2;
 }
 .welcome a{
     text-decoration: none;
 }
 form{
-    float: right;
     border-style: solid;
     padding: 30px;
     border-radius: 20px;
     background-color: lightgrey;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+.contactme{
+    flex: 3;
 }
