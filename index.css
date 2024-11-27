@@ -5,7 +5,6 @@ body{
 }
 h1{
     text-align: center;
-    margin-top: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 45px;
@@ -49,4 +48,11 @@ p{
 }
 .welcome a{
     text-decoration: none;
+}
+form{
+    float: right;
+    border-style: solid;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: lightgrey;
 }
