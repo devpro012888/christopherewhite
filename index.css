@@ -1,3 +1,7 @@
+*/*{
+    border-style: solid;
+}*/
+
 body{
     width: 1500px;
     margin: auto;
@@ -14,9 +18,8 @@ h1{
     border-color: black;
     border-width: 10px;
 }
-.selfie{
+img{
     float: left;
-    margin-right: 20px;
     pointer-events: none;
     margin-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -45,8 +48,9 @@ p{
     color: black;
 }
 .welcome{
-    width: 800px;
     flex: 2;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .welcome a{
     text-decoration: none;
@@ -56,11 +60,12 @@ form{
     padding: 30px;
     border-radius: 20px;
     background-color: lightgrey;
+    flex: 3;
+    max-width: 250px;
+    margin-top: 15px;
 }
-section{
+.flex-container{
     display: flex;
     flex-direction: row;
-}
-.contactme{
-    flex: 3;
+    justify-content: space-between;
 }
