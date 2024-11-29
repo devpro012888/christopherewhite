@@ -64,6 +64,23 @@ form{
     max-width: 250px;
     margin-top: 15px;
 }
+input[type="text"]{
+    width: 230px;
+    padding: 10px;
+    margin: 5px;
+}
+input[type="email"]{
+    width: 230px;
+    padding: 10px;
+    margin: 5px;
+}
+input[type="textarea"]{
+    margin: 5px;
+}
+button{
+    margin: 5px;
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
