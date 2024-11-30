@@ -1,4 +1,4 @@
-*/*{
+/**{
     border-style: solid;
 }*/
 
@@ -7,16 +7,16 @@ body{
     margin: auto;
     background-color: darkgrey;
 }
-h1{
+.header{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 45px;
+    font-size: 30px;
     color: white;
     background-color:darkslategray;
     border-style: solid;
     border-color: black;
     border-width: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 img{
     float: left;
@@ -79,10 +79,16 @@ input[type="textarea"]{
 }
 button{
     margin: 5px;
+    padding: 15px 60px;
+    cursor: pointer;
 }
-
 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+label h2{
+    width: 250px;
+    margin: auto;
+    text-align: center;
 }
