@@ -1,12 +1,16 @@
+/*Displays the websties tables*/
 /**{
     border-style: solid;
 }*/
 
+/*Styles the body*/
 body{
     width: 1500px;
     margin: auto;
     background-color: darkgrey;
 }
+
+/*Styles the website header*/
 .header{
     text-align: center;
     font-size: 30px;
@@ -18,9 +22,13 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+/*Styles webstie header (Software Developer*/
 .header h5{
     margin-top: -25px;
 }
+
+/*Styles image*/
 .selfie{
     float: left;
     pointer-events: none;
@@ -29,9 +37,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     flex: 1;
 }
-p{
-    text-align: justify;
-}
+
 /*Style the links inside the navigation bar*/
 .topnav a{
     float: left;
@@ -41,16 +47,20 @@ p{
     text-decoration: none;
     font-size: 17px;
 }
+
 /*Add a black background color to the top navigation*/
 .topnav{
     background-color: #333;
     overflow: hidden;
 }
+
 /*Change the color of links on hover*/
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
+
+/*Styles search bar*/
 .topnav input[type=text]{
     float: right;
     padding: 6px;
@@ -59,14 +69,25 @@ p{
     margin-right: 16px;
     font-size: 17px;
 }
+
+/*Styles welcome paragraph (1)*/
 .welcome{
     flex: 2;
     margin-left: 100px;
     margin-right: 100px;
 }
+
+/*Styles welcome paragraph (2)*/
+p{
+    text-align: justify;
+}
+
+/*Styles link within paragraph*/
 .welcome a{
     text-decoration: none;
 }
+
+/*Styles form*/
 form{
     border-style: solid;
     padding: 30px;
@@ -76,40 +97,56 @@ form{
     max-width: 250px;
     margin-top: 15px;
 }
+
+/*Styles form input text*/
 input[type="text"]{
     width: 230px;
     padding: 10px;
     margin: 5px;
 }
+
+/*Styles form input email*/
 input[type="email"]{
     width: 230px;
     padding: 10px;
     margin: 5px;
 }
+
+/*Styles form input textarea*/
 input[type="textarea"]{
     margin: 5px;
 }
+
+/*Styles form button*/
 button{
     margin: 5px;
     padding: 15px 60px;
     cursor: pointer;
 }
+
+/*Flex container to order items 1, 2, 3*/
 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+/*Styles Contact Me*/
 label h2{
     width: 250px;
     margin: auto;
     text-align: center;
 }
+
+/*Styles footer*/
 footer{
     background-color: #333;
     padding: 10px 16px;
     display: flex;
     justify-content: center;
 }
+
+/*Styles footer links*/
 footer a{
     padding-left: 15px;
     padding-right: 15px;
