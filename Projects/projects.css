@@ -49,26 +49,13 @@ body{
 .active{
     background-color: black;
 }
-
-.card{
-    /*Add shadows to create "card" effect*/
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /*5px round corners*/
+table, th, td{
+    border: 1px solid black;
+    width: 1500px;
 }
-
-/*On mouse-over, add a deeper shadow*/
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+td{
+    text-align: center;
 }
-
-/*Add some padding inside the card container*/
-.container{
-    padding: 2px 16px;
-}
-
-/*Add rounded corners to the topleft and top right corner of the image*/
-img{
-    border-radius: 5px 5px 0 0;
-    background-color: white;
+table{
+    margin-top: 15px;
 }
